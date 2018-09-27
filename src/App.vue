@@ -55,9 +55,9 @@ body
   top: 0 !important
   .vue-slide-bar-tooltip
     background-color: white !important
-    border: 8px solid #1DA9E0
-    border-radius: 50%
-    color: #1DA9E0
+    border: 8px solid #1DA9E0 !important
+    border-radius: 50% !important
+    color: #1DA9E0 !important
     font-weight: 700
     display: block
     line-height: 20px
@@ -71,11 +71,11 @@ body
   top: 38px
   width: 96%
   .vue-slide-bar-separate
-    background: white
+    background-color: white !important
     border: 1px solid #AAAAAA
     border-radius: 50%
-    height: 8px
-    width: 8px
+    height: 8px !important
+    width: 8px !important
 
 @keyframes fadeIn 
   from 
